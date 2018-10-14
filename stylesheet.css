@@ -3,11 +3,17 @@
 }
 
 body {
-    margin: 20px;
+    margin: 0;
 }
 
-#header {
-    display: inline;
+#flex-container {
+    display: flex;
+    align-items: center;
+}
+
+header#header-logo-name {
+    margin: 5px;
+    display: flex;
 }
 
 #companylogo {
@@ -25,33 +31,17 @@ h1 {
 }
 
 #centernav {
-    width: 40%;
-    margin: 
+    display: flex;
+    margin: 0;
 }
 
-.alignleft {
-    max-width: 428px;
-    float: left;
+#rightnav {
+    display: flex;
+    flex-direction: row;
 }
 
-.aligncenter {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul {
-    list-style: none;
-}
-
-ul#aligncenter {
+#centernav>nav>ul>li {
     display: inline;
-}
-
-.nav-link {
-    display: inline;
-    vertical-align: middle;
-    padding: 30px;
-    line-height: 40px;
 }
 
 a {
@@ -67,25 +57,20 @@ a:active {
     border-bottom: magenta;
 }
 
-nav.rightnav {
-    display: inline;
-    max-width: 40%;
-}
-
-a.bookit {
+a.rightnavel1 {
     background: green;
     padding: 15px;
     text-transform: uppercase;
     color: white;
-    float: right;
     font-size: 14px;
+    margin: 0;
 }
 
-a.membership {
+a.rightnavel2 {
     background: magenta;
     padding: 15px;
     text-transform: uppercase;
     color: white;
-    float: right;
     font-size: 14px;
+    margin: 0;
 }
