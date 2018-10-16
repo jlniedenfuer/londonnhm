@@ -10,11 +10,13 @@ body {
     display: flex;
     align-items: center;
     margin-left: 10px;
+    padding: 10px 0;
 }
 
 header#header-logo-name {
     margin: 5px;
     display: flex;
+    padding: 10px;
 }
 
 #companylogo {
@@ -35,10 +37,15 @@ h1 {
     display: flex;
     margin: 0;
     flex-grow: 2;
+    padding: 10px;
 }
 
 #rightnav {
     display: flex;
+}
+
+#rightnav>a {
+    transform: scaleY(1.7);
 }
 
 #centernav>nav>ul>li {
@@ -61,24 +68,22 @@ a:active {
 
 a.rightnavel1 {
     background: green;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
-    letter-spacing: -1px;
 }
 
 a.rightnavel2 {
     background: magenta;
-    padding: 20px;
+    padding: 30px;
     text-transform: uppercase;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
-    letter-spacing: -1px;
 }
 
 .whalebanner {
@@ -89,7 +94,6 @@ a.rightnavel2 {
     position: relative;
 }
 
-/* Place text in the middle of the image */
 .whaletext {
     text-align: center;
     position: absolute;
@@ -99,14 +103,75 @@ a.rightnavel2 {
     color: white;
 }
 
-div.whalebanner>h1 {
-    font-size: 58px;
+div.whaletext>h1 {
+    font-size: 120px;
+    letter-spacing: 75px;
+    font-weight: bold;
+    line-height: 100px;
+    transform: scaleY(1.7);
 }
 
-div.whalebanner>h2 {
-    font-size: 52px;
+div.whaletext>h2 {
+    font-size: 60px;
+    letter-spacing: 5px;
 }
 
 div.whaletext>h1, h2 {
     text-transform: uppercase;
+}
+
+.scrolldown {
+    position: absolute;
+    bottom: 5%;
+    left: 46%;
+}
+
+.scrolldown>img {
+    height: 100px;
+    width: auto;
+}
+
+.checked {
+    color: #66c2ff; 
+    font-size: 50px;
+}
+
+.explanation-container {
+    display: inline;
+}
+
+.explanation {
+    width: 65%;
+    float: left;
+    padding: 60px;
+}
+
+div.explanation>h2 {
+    color: #002d88;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+div.explanation>h3 {
+    color: #808080;
+    font-size: 28px;
+}
+
+div.stars-rating>h2 {
+    color: #002d88;
+    font-size: 30px;
+}
+
+div.stars-rating>h3 {
+    color: #808080;
+    text-transform: uppercase;
+    transform: scaleY(1.5);
+}
+
+.stars-rating {
+    width: 20%;
+    float: right;
+    text-align: center;
+    padding: 82px;
+    margin-top: 30px;
 }
