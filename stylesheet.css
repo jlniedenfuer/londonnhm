@@ -6,6 +6,7 @@ body {
     margin: 0;
 }
 
+/*Header and navigation pane at top of page*/
 #flex-container {
     display: flex;
     align-items: center;
@@ -86,6 +87,7 @@ a.rightnavel2 {
     margin: 0;
 }
 
+/*Whale Banner*/
 div.banner-container {
     width: 100%;
 }
@@ -132,6 +134,7 @@ div.whaletext>h1, h2 {
     width: auto;
 }
 
+/*Explanation and rating*/
 .checked {
     color: #66c2ff; 
     font-size: 50px;
@@ -178,43 +181,41 @@ div.stars-rating>h3 {
     margin-top: 30px;
 }
 
+/*Slideshow*/
 div.slideshow {
     display: inline-block;
-    height: 86vh;
+    height: 874px;
     width: 69%;
     background-color: #004c7e;
-    margin-right: 0;
 }
 
 img.myslides {
     max-width: 1313px;
+    max-height: 874px;
 }
 
-div.slidewhow-buttons {
-    display: inline-block;
-    bottom: 50px;
-    transform: translate(50%);
-}
-
-div.left-button>i {
+i.material-icons {
+    cursor: pointer;
     color: #014984;
-    font-size: 36px;
     background-color: #a3a2a8;
     opacity: 0.6;
+    transform: scaleY(3);
+    font-size: 48px;
+    transform-origin: 0 400%;
+    padding: 10px;
+}
+
+a#left-button {
     float: left;
-    transform: scaleY(3);
 }
 
-div.right-button>i {
-    color: #014984;
-    font-size: 36px;
-    background-color: #a3a2a8;
-    opacity: 0.6;
+a#right-button {
     float: right;
-    transform: scaleY(3);
 }
 
+/* Pricing */
 div.prices {
+    display: inline-block;
     float: right;
     text-align: center;
     width: 25%;
@@ -281,3 +282,13 @@ div.prices>a {
     transform: scaleY(1.5);
     top: 30px;
 }
+
+/* Things to do section */
+
+/* Become a member */
+
+/* Articles */
+
+/* Book tickets */
+
+/* Bottom site map */
