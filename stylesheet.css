@@ -215,7 +215,7 @@ a#right-button {
 
 /* Pricing */
 div.prices {
-    display: inline-block;
+    display: inline;
     float: right;
     text-align: center;
     width: 25%;
@@ -283,8 +283,76 @@ div.prices>a {
     top: 30px;
 }
 
-/* Things to do section */
+/* Attractions */
+div.attractions {
+    display: inline-block;
+    background-image: url(images/attractionbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
 
+img.small-circle {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.icon1 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon2 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon3 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon4 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon5 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon6 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon7 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
+
+.icon8 {
+    float: left;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+}
 /* Become a member */
 
 /* Articles */
